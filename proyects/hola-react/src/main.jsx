@@ -1,14 +1,12 @@
 import React from 'react';
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
+import {App} from './App.jsx'
+import './index.css'
 
 const root = createRoot(document.getElementById('root'));
 
+
 root.render(
-
-  <React.Fragment>
-    <button>Hola boton</button>
-    <button>Hola boton</button>
-  </React.Fragment>
-
+  <App />
  )
